@@ -29,16 +29,16 @@ export default function HomePage() {
       <section className="my-20 px-4 sm:px-6 md:px-8">
         <div className="flex flex-wrap justify-center gap-6">
           <div className="bg-gray-800 hover:shadow-lg dark:hover:shadow-slate-700 transition-shadow p-6 rounded-lg shadow-md w-full sm:w-[80%] md:w-[30%] max-w-sm">
-            <h3 className="text-xl mb-1 dark:text-white">Feature One</h3>
-            <p className="text-slate-500 dark:text-slate-400">Description for feature one goes here.</p>
+            <h3 className="text-xl mb-1 dark:text-white">Smart Expense Tracking</h3>
+            <p className="text-slate-500 dark:text-slate-400">Monitor and categorize your daily expenses with ease and accuracy.</p>
           </div>
           <div className="bg-gray-800 hover:shadow-lg dark:hover:shadow-slate-700 transition-shadow p-6 rounded-lg shadow-md w-full sm:w-[80%] md:w-[30%] max-w-sm">
-            <h3 className="text-xl mb-1 dark:text-white">Feature Two</h3>
-            <p className="text-slate-500 dark:text-slate-400">Description for feature two goes here.</p>
+            <h3 className="text-xl mb-1 dark:text-white">Task Management</h3>
+            <p className="text-slate-500 dark:text-slate-400">Organize your daily tasks and set priorities to stay productive.</p>
           </div>
           <div className="bg-gray-800 hover:shadow-lg dark:hover:shadow-slate-700 transition-shadow p-6 rounded-lg shadow-md w-full sm:w-[80%] md:w-[30%] max-w-sm">
-            <h3 className="text-xl mb-1 dark:text-white">Feature Three</h3>
-            <p className="text-slate-500 dark:text-slate-400">Description for feature three goes here.</p>
+            <h3 className="text-xl mb-1 dark:text-white">Financial Insights</h3>
+            <p className="text-slate-500 dark:text-slate-400">Gain valuable insights into your spending patterns and make smarter decisions.</p>
           </div>
         </div>
       </section>
