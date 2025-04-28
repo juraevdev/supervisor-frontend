@@ -83,7 +83,7 @@ export default function PasswordResetVerifyForm() {
 
               <Button
                 type="submit"
-                className="w-full bg-emerald-600 hover:bg-emerald-700"
+                className="w-full bg-emerald-600 hover:bg-emerald-700 cursor-pointer"
                 disabled={isLoading}
               >
                 {isLoading ? "Yuklanmoqda..." : "Tasdiqlash"}
@@ -92,7 +92,7 @@ export default function PasswordResetVerifyForm() {
           </Form>
 
           <div className="mt-6 flex flex-col space-y-2 text-center">
-            <Link to="/password-reset" className="text-sm text-gray-400 hover:underline">
+            <Link to="/request" className="text-sm text-gray-400 hover:underline">
               So‘rov sahifasiga qaytish
             </Link>
             <Link to="/login" className="text-sm text-emerald-400 hover:underline">

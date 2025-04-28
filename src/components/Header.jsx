@@ -52,7 +52,7 @@ function Header() {
               <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden z-50">
                 <Link to="/home/profile" className="block px-4 py-2 no-underline text-white dark:hover:bg-gray-500">Profile</Link>
                 <Link to="/request" className="block px-4 py-2 no-underline text-white dark:hover:bg-gray-500">Change Password</Link>
-                <button onClick={handleLogout} className="w-full text-left text-white px-4 py-2 dark:hover:bg-gray-500">Leave</button>
+                <button onClick={handleLogout} className="w-full text-left text-white px-4 py-2 dark:hover:bg-gray-500 cursor-pointer">Leave</button>
               </div>
             )}
           </div>

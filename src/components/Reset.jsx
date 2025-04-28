@@ -119,7 +119,7 @@ export default function PasswordResetForm() {
 
               <Button
                 type="submit"
-                className="w-full bg-emerald-600 hover:bg-emerald-700"
+                className="w-full bg-emerald-600 hover:bg-emerald-700 cursor-pointer"
                 disabled={isLoading}
               >
                 {isLoading ? "Yuklanmoqda..." : "Yangilash"}

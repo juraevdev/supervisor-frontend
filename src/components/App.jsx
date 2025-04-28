@@ -111,7 +111,7 @@ function App() {
                       type="checkbox"
                       checked={todo.completed}
                       onChange={() => handleToggleTodo(todo.id, todo.completed)}
-                      className="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 flex-shrink-0"
+                      className="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 flex-shrink-0 cursor-pointer"
                     />
                     <span className={`flex-1 ${todo.completed ? 'line-through text-gray-500' : 'text-white'}`}>{todo.name}</span>
                     {/* <button onClick={() => setEditingId(todo.id)} className="text-gray-500 hover:text-indigo-600">

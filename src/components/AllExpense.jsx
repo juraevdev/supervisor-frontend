@@ -141,10 +141,10 @@ const Expenses = () => {
                             </Button>
                           </DropdownMenuTrigger>
                           <DropdownMenuContent align="end" className="bg-gray-800 border border-gray-700 text-gray-200">
-                            <DropdownMenuItem className="hover:bg-gray-700" onClick={() => handleOpenDialog(expense)}>
+                            <DropdownMenuItem className="hover:bg-gray-700 cursor-pointer" onClick={() => handleOpenDialog(expense)}>
                               Edit
                             </DropdownMenuItem>
-                            <DropdownMenuItem onClick={() => handleDelete(expense.id)} className="text-red-500 hover:bg-gray-700">
+                            <DropdownMenuItem onClick={() => handleDelete(expense.id)} className="text-red-500 hover:bg-gray-700 cursor-pointer">
                               Delete
                             </DropdownMenuItem>
                           </DropdownMenuContent>

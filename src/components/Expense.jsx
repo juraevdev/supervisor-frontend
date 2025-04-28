@@ -168,8 +168,8 @@ const Expense = () => {
                         </Button>
                       </DropdownMenuTrigger>
                       <DropdownMenuContent align="end" className="bg-gray-800 border border-gray-700 text-gray-200">
-                        <DropdownMenuItem className="hover:bg-gray-700" onClick={() => handleOpenDialog(outcome)}>Edit</DropdownMenuItem>
-                        <DropdownMenuItem onClick={() => handleDelete(outcome.id)} className="text-red-500 hover:bg-gray-700">
+                        <DropdownMenuItem className="hover:bg-gray-700 cursor-pointer" onClick={() => handleOpenDialog(outcome)}>Edit</DropdownMenuItem>
+                        <DropdownMenuItem onClick={() => handleDelete(outcome.id)} className="text-red-500 hover:bg-gray-700 cursor-pointer">
                           Delete
                         </DropdownMenuItem>
                       </DropdownMenuContent>

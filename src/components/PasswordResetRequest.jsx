@@ -75,7 +75,7 @@ export default function PasswordResetRequestForm() {
 
               <Button
                 type="submit"
-                className="w-full bg-emerald-600 hover:bg-emerald-700"
+                className="w-full bg-emerald-600 hover:bg-emerald-700 cursor-pointer"
                 disabled={isLoading}
               >
                 {isLoading ? "Yuklanmoqda..." : "Kod olish"}
