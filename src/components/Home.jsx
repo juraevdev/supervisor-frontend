@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
-    <div className="w-full overflow-x-hidden bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans">
+    <div className="min-h-screen w-full overflow-x-hidden dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans">
 
       <section
         className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-8 w-80 md:w-4/5 mx-auto mt-4 rounded-lg bg-cover bg-center"
