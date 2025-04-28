@@ -75,7 +75,7 @@ const handleSubmit = () => {
     <div className="bg-gray-900 min-h-screen py-8">
       <div className="container mx-auto px-4 max-w-md">
         <Button asChild variant="ghost" className="mb-6 text-emerald-400 hover:text-emerald-300">
-          <Link to="/">
+          <Link to="/home/expense">
             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Expenses
           </Link>
         </Button>
